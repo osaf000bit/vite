@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="OSTAD CASINO logo placeholder">
+  <!--
+    OSTAD-LOGO-PLACEHOLDER
+    The official OSTAD logo asset was not supplied with this build.
+    This is a clearly marked placeholder only. It is NOT the OSTAD logo and
+    must be replaced with the user-supplied official asset before any public
+    release. Do not treat this artwork as final brand identity.
+  -->
+  <rect width="240" height="240" fill="#0b0a10"/>
+  <rect x="8" y="8" width="224" height="224" fill="none" stroke="#c8a24a" stroke-width="1" stroke-dasharray="6 6" opacity="0.65"/>
+  <rect x="16" y="16" width="208" height="208" fill="none" stroke="#b56a3c" stroke-width="0.5" opacity="0.5"/>
+  <g fill="none" stroke="#c8a24a" stroke-width="1.2" opacity="0.85">
+    <path d="M120 44 L186 120 L120 196 L54 120 Z"/>
+    <path d="M120 66 L164 120 L120 174 L76 120 Z" opacity="0.6"/>
+    <circle cx="120" cy="120" r="26"/>
+    <path d="M120 94 L146 120 L120 146 L94 120 Z" opacity="0.7"/>
+  </g>
+  <text x="120" y="115" text-anchor="middle" fill="#e6c877" font-family="Georgia, serif" font-size="15" letter-spacing="4">OSTAD</text>
+  <text x="120" y="134" text-anchor="middle" fill="#b56a3c" font-family="ui-sans-serif, system-ui, sans-serif" font-size="7" letter-spacing="3">CASINO</text>
+  <text x="120" y="213" text-anchor="middle" fill="#7d6428" font-family="ui-monospace, monospace" font-size="7" letter-spacing="1.5">LOGO PLACEHOLDER</text>
+</svg>
