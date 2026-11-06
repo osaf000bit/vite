@@ -1,1 +1,12 @@
-{ "name": "@ostad/chain-tron", "version": "0.1.0", "private": true, "type": "module", "main": "./src/index.ts", "types": "./src/index.ts", "dependencies": { "@ostad/chain-core": "workspace:*", "tronweb": "^6.2.2" } }
+{
+  "name": "@ostad/chain-tron",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "@ostad/chain-core": "workspace:*",
+    "tronweb": "^6.2.2"
+  }
+}

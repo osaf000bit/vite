@@ -165,6 +165,8 @@ export interface GameTableRow {
   small_blind_minor: number;
   big_blind_minor: number;
   status: "OPEN" | "PAUSED" | "CLOSED";
+  /** Serialised server-authoritative engine state (poker tables). */
+  state_json: string | null;
   created_at: string;
   updated_at: string;
 }

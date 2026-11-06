@@ -1,0 +1,14 @@
+{
+  "name": "@ostad/chain-registry",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "@ostad/chain-bsc": "workspace:*",
+    "@ostad/chain-core": "workspace:*",
+    "@ostad/chain-polygon": "workspace:*",
+    "@ostad/chain-tron": "workspace:*"
+  }
+}
