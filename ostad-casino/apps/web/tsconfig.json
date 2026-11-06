@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["dom", "dom.iterable", "ES2022"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": false,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [{ "name": "next" }],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@ostad/rng": ["../../services/rng/src/index.ts"],
+      "@ostad/ledger": ["../../services/ledger/src/index.ts"],
+      "@ostad/game-engine": ["../../services/game-engine/src/index.ts"],
+      "@ostad/wallet-engine": ["../../services/wallet-engine/src/index.ts"],
+      "@ostad/risk-engine": ["../../services/risk-engine/src/index.ts"],
+      "@ostad/compliance": ["../../services/compliance/src/index.ts"],
+      "@ostad/chain-core": ["../../chains/core/src/index.ts"],
+      "@ostad/chain-bsc": ["../../chains/bsc/src/index.ts"],
+      "@ostad/chain-polygon": ["../../chains/polygon/src/index.ts"],
+      "@ostad/chain-tron": ["../../chains/tron/src/index.ts"],
+      "@ostad/chain-registry": ["../../chains/registry/src/index.ts"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}
