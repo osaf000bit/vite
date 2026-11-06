@@ -1,0 +1,19 @@
+{
+  "name": "ostad-casino",
+  "private": true,
+  "version": "0.1.0",
+  "description": "OSTAD CASINO — Multi-Chain Web3 Gaming & Casino Platform (demo mode)",
+  "engines": { "node": ">=20.9.0" },
+  "scripts": {
+    "dev": "pnpm --filter @ostad/web dev",
+    "build": "pnpm --filter @ostad/web build",
+    "start": "pnpm --filter @ostad/web start",
+    "typecheck": "pnpm --filter @ostad/web typecheck",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "3.2.4",
+    "typescript": "5.9.2"
+  }
+}
