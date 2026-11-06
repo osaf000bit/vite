@@ -1,0 +1,35 @@
+{
+  "name": "@ostad/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ostad/chain-bsc": "workspace:*",
+    "@ostad/chain-core": "workspace:*",
+    "@ostad/chain-polygon": "workspace:*",
+    "@ostad/chain-tron": "workspace:*",
+    "@ostad/compliance": "workspace:*",
+    "@ostad/game-engine": "workspace:*",
+    "@ostad/ledger": "workspace:*",
+    "@ostad/risk-engine": "workspace:*",
+    "@ostad/rng": "workspace:*",
+    "@ostad/wallet-engine": "workspace:*",
+    "next": "15.5.29",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.1.18",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "tailwindcss": "4.1.18",
+    "typescript": "5.9.2"
+  }
+}
